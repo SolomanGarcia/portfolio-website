@@ -15,6 +15,69 @@
   --text-color: #eaeaeb;
   --errors-color: #f43030;
 
-  --font-primary:
-    --font-secondary: --max-width: 1280px;
+  --max-width: 1280px;
+
+  --font-primary: 'Open Sans', sans-serif;
+  --font-secondary: 'Ibarra Real Nova', serif;
+}
+
+body {
+  background: var(--bg-color);
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Utility */
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+
+
+/* Navigation */
+#main-nav {}
+
+#main-nav .container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+}
+
+#main-nav .logo {
+  height: 32px;
+  width: 60px;
+}
+
+#main-nav ul {
+  display: flex;
+}
+
+#main-nav ul li a {
+  color: var(--primary-color-dark);
+  padding: 10px 20px;
+}
+
+#main-nav ul li a.current {
+  color: var(--primary-color-light);
 }

@@ -78,6 +78,11 @@ a {
   padding: 10px 20px;
 }
 
+#main-nav ul li a:hover {
+  color: var(--primary-color-light);
+  border-bottom: solid 2px var(--primary-color-light);
+}
+
 #main-nav ul li a.current {
   color: var(--primary-color-light);
 }

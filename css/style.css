@@ -200,7 +200,6 @@ h2 {
   display: flex;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  padding: 0;
   height: 85vh;
 }
 
@@ -211,9 +210,8 @@ h2 {
 }
 
 #about .about-img img {
-  object-fit: cover;
+  object-fit: contain;
 }
-
 
 #about .about-content {
   flex-direction: column;
@@ -235,4 +233,37 @@ h2 {
 #about .about-content a {
   margin-top: 2rem;
 
+}
+
+/* CTA Section */
+#cta .container {
+  display: flex;
+  height: 30vh;
+  margin: 8rem 1rem 8rem 4rem;
+}
+
+#cta .cta-text {
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+#cta .cta-text p {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+#cta .cta-line {
+  flex: 1;
+  border-top: 1px solid rgba(51, 50, 61, 0.2);
+  margin-top: 3.5rem;
+}
+
+#cta .cta-btn {
+  width: 20%;
+  text-align: center;
+  margin-top: 1.75rem;
 }

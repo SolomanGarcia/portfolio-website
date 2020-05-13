@@ -287,10 +287,34 @@ h2 {
   margin: 0;
 }
 
-#footer a {
-  fill: var(--text-color);
+#footer .nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-svg {
-  fill: var(--text-color);
+#footer .logo {
+  margin-left: 4rem;
+}
+
+#footer ul {
+  display: flex;
+  margin-left: 1rem;
+}
+
+#footer ul li a {
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
+#footer ul li a:hover {
+  color: var(--primary-color-light);
+}
+
+#footer .social-icons {
+  margin-right: 2rem;
+}
+
+#footer .social-icons a img.icon {
+  margin-right: .5rem;
 }

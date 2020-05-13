@@ -64,6 +64,11 @@ h2 {
   overflow: hidden;
 }
 
+.logo {
+  height: 32px;
+  width: 60px;
+}
+
 .btn {
   cursor: pointer;
   display: inline-block;
@@ -80,6 +85,11 @@ h2 {
   background-color: var(--primary-color-dark);
 }
 
+.icon {
+  height: 24px;
+  width: 25px;
+}
+
 /* Navigation */
 
 #main-nav .container {
@@ -90,10 +100,7 @@ h2 {
   height: 70px;
 }
 
-#main-nav .logo {
-  height: 32px;
-  width: 60px;
-}
+
 
 #main-nav ul {
   display: flex;
@@ -239,7 +246,7 @@ h2 {
 #cta .container {
   display: flex;
   height: 30vh;
-  margin: 8rem 1rem 8rem 4rem;
+  margin: 6rem 1rem 1rem 4rem;
 }
 
 #cta .cta-text {
@@ -266,4 +273,24 @@ h2 {
   width: 20%;
   text-align: center;
   margin-top: 1.75rem;
+}
+
+/* Footer */
+#footer .container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+  height: 70px;
+  background-color: var(--primary-color-dark);
+  max-width: 100%;
+  margin: 0;
+}
+
+#footer a {
+  fill: var(--text-color);
+}
+
+svg {
+  fill: var(--text-color);
 }

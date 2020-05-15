@@ -3,6 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 4rem;
+  justify-content: center;
 }
 
 #project-cards .project-img {
@@ -33,4 +34,20 @@
 
 #project-cards .project-info a {
   margin-top: 2rem;
+}
+
+#project-cards .right-card {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+#project-cards .right-card .project-info {
+  margin-left: 8rem;
+  margin-right: 6rem;
+}
+
+#cta {
+  margin-top: 8rem;
 }

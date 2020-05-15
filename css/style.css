@@ -66,6 +66,7 @@ h2 {
 .logo {
   height: 32px;
   width: 60px;
+  margin-left: 1rem;
 }
 
 .btn {
@@ -172,12 +173,12 @@ h2 {
 /* Animations */
 #showcase .container .content h1 {
   transform: translateY(-1200px);
-  animation: heading 2s forwards ease-in;
+  animation: heading 1s forwards ease-in;
 }
 
 #showcase .container .content a {
   transform: translateY(1200px);
-  animation: button 2s forwards ease-in 1s;
+  animation: button 1s forwards ease-in 1s;
 }
 
 /* Keyframes */
@@ -248,7 +249,6 @@ h2 {
 #cta .container {
   display: flex;
   height: 30vh;
-  /* margin: 1rem 1rem 1rem 4rem; */
   margin-left: 3.5rem;
 }
 
@@ -316,10 +316,11 @@ h2 {
   margin-right: 2rem;
 }
 
-#footer .social-icons a img.icon {
+#footer .social-icons a {
+  color: #ffffff;
   margin-right: 0.5rem;
 }
 
-#footer .social-icons a img.icon:hover {
-  fill: var(--primary-color-light);
+#footer .social-icons a:hover {
+  color: var(--primary-color-light);
 }

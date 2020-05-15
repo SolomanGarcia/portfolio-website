@@ -1,0 +1,36 @@
+/* Project Cards */
+#project-cards .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+#project-cards .project-img {
+  width: 540px;
+  height: 500px;
+  margin-left: 2rem;
+}
+
+#project-cards .project-info {
+  width: 350px;
+  height: 500px;
+  margin-left: 8rem;
+  border-top: 1px solid rgba(51, 50, 61, 0.2);
+  border-bottom: 1px solid rgba(84, 79, 138, 0.2);
+}
+
+#project-cards .project-info h2 {
+  margin-top: 3rem;
+}
+
+#project-cards .project-info p {
+  color: var(--primary-color-dark);
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  line-height: 1.875;
+  opacity: 0.8;
+}
+
+#project-cards .project-info a {
+  margin-top: 2rem;
+}

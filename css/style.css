@@ -17,9 +17,8 @@
 
   --max-width: 1280px;
 
-  --font-primary: 'Open Sans', sans-serif;
-  --font-secondary: 'Ibarra Real Nova', serif;
-
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Ibarra Real Nova", serif;
 }
 
 body {
@@ -100,8 +99,6 @@ h2 {
   height: 70px;
 }
 
-
-
 #main-nav ul {
   display: flex;
 }
@@ -123,7 +120,7 @@ h2 {
 /* Showcase */
 #showcase .container {
   display: flex;
-  background: url('/img/bg-img.jpg') no-repeat center center/cover;
+  background: url("../img/bg-img.jpg") no-repeat center center/cover;
   color: var(--text-color);
   height: 85vh;
   position: relative;
@@ -144,7 +141,7 @@ h2 {
 }
 
 #showcase .container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -166,7 +163,6 @@ h2 {
 
   transition: all 0.3s ease-in;
 
-
   margin-top: 3rem;
   font-size: 1rem;
   border-radius: 5px;
@@ -186,7 +182,6 @@ h2 {
 #showcase .container .content a {
   transform: translateY(1200px);
   animation: button 2s forwards ease-in 1s;
-
 }
 
 /* Keyframes */
@@ -234,12 +229,11 @@ h2 {
   font-family: var(--font-primary);
   font-size: 1rem;
   line-height: 1.875;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 #about .about-content a {
   margin-top: 2rem;
-
 }
 
 /* CTA Section */
@@ -316,5 +310,9 @@ h2 {
 }
 
 #footer .social-icons a img.icon {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
+}
+
+#footer .social-icons a img.icon:hover {
+  fill: var(--primary-color-light);
 }

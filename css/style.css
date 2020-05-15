@@ -150,10 +150,6 @@ h2 {
   background: rgba(51, 50, 61, 0.7);
 }
 
-#showcase * {
-  z-index: 10;
-}
-
 #showcase .container .content a {
   cursor: pointer;
   display: inline-block;
@@ -200,28 +196,36 @@ h2 {
 /* About Section */
 #about .container {
   display: flex;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  height: 85vh;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
 }
 
 #about .about-img {
-  flex-direction: column;
-  flex-basis: 50%;
-  margin: 2rem;
+  flex-basis: 42.5%;
+  align-self: flex-start;
+  overflow: hidden;
+  margin-right: 4rem;
 }
 
 #about .about-img img {
-  object-fit: contain;
+  height: 550px;
+
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 #about .about-content {
-  flex-direction: column;
-  flex-basis: 50%;
-  margin: 2rem 2rem 0 2rem;
-  padding: 1rem 3rem;
+  flex-basis: 42.5%;
+  margin-left: 4rem;
+  height: 550px;
+  align-self: stretch;
+
   border-top: 1px solid rgba(51, 50, 61, 0.2);
-  border-bottom: 1px solid rgba(51, 50, 61, 0.2);
+  border-bottom: 1px solid rgba(84, 79, 138, 0.2);
 }
 
 #about .about-content p {

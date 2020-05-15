@@ -211,7 +211,7 @@ h2 {
 }
 
 #about .about-img img {
-  height: 550px;
+  height: 530px;
 
   flex-shrink: 0;
   min-width: 100%;
@@ -221,14 +221,18 @@ h2 {
 #about .about-content {
   flex-basis: 42.5%;
   margin-left: 4rem;
-  height: 550px;
+  height: 530px;
   align-self: stretch;
-
   border-top: 1px solid rgba(51, 50, 61, 0.2);
   border-bottom: 1px solid rgba(84, 79, 138, 0.2);
 }
 
+#about .about-content h2 {
+  margin-top: 3rem;
+}
+
 #about .about-content p {
+  margin-top: 2rem;
   color: var(--primary-color-dark);
   font-family: var(--font-primary);
   font-size: 1rem;
@@ -237,7 +241,7 @@ h2 {
 }
 
 #about .about-content a {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 /* CTA Section */
